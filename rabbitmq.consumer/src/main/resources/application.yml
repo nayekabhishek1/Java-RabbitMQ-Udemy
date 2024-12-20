@@ -1,0 +1,16 @@
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} | %-5level | %logger{1.} | %msg%n"
+
+
+spring:
+  application:
+    name: rabbitmq.consumer
+  rabbitmq:
+    addresses: "localhost:5672"
+    username: guest
+    password: guest
+
+
+
+
